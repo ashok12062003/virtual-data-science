@@ -1,0 +1,15 @@
+WEEK 2 - SUPERVISED MACHINE LEARNING
+REGRESSION MODEL COMPARISON
+==================================================
+
+            Model        MAE           MSE       RMSE  R2_Score
+              KNN  64.124110  98264.944303 313.472398  0.344878
+Linear Regression 105.704494 112405.376171 335.269110  0.250606
+    Decision Tree  79.490206 156146.941427 395.154326 -0.041015
+    Random Forest  79.799906 156148.656997 395.156497 -0.041026
+
+Best model based on lowest test RMSE:
+Model: KNN
+MAE: 64.1241
+RMSE: 313.4724
+R2 Score: 0.3449
